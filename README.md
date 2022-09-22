@@ -5,7 +5,7 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Definición del producto](#2-definición-del-producto)
 * [3. Definición del usuario ](#3-definición-del-usuario)
-*
+* [Grabación](#4-Grabación)
 
 
 
@@ -33,3 +33,4 @@ Los usuarios objetivo del producto son espectadores nuevos o antiguos, fans o af
 ![Fotos](/public/img/marvel1.png)
 ![Marvel-Api](/public/img/marvel3.png)
 
+## 4.Grabación 
