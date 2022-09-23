@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/data-marvel/static/css/main.874e3e09.css",
+    "main.js": "/data-marvel/static/js/main.b71bcd3d.js",
+    "static/media/avengers.jpg": "/data-marvel/static/media/avengers.ab69ba42d51f86e70389.jpg",
+    "static/media/logo.png": "/data-marvel/static/media/logo.58b8e3c47bc4eb3fda69.png",
+    "index.html": "/data-marvel/index.html",
+    "main.874e3e09.css.map": "/data-marvel/static/css/main.874e3e09.css.map",
+    "main.b71bcd3d.js.map": "/data-marvel/static/js/main.b71bcd3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.874e3e09.css",
+    "static/js/main.b71bcd3d.js"
+  ]
+}
