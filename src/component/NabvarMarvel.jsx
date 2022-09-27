@@ -3,8 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import marvel from '../asset/img/logo.png'
 
 function NavbarMarvel({ searchInput, setSearchInput }) {
-    //onchange es un capturador de eventos por lo que al pasarle la funcion handlechange estamos indicando que captura el evento y luego ese valor lo actualiza con el setSearchInput,
-    //esa funcion es el padre  y actualiza el estado global searchinput, el cual usaremos en el llamado de la api.
     const handleChange = (e) => {
         setSearchInput(e.target.value)
     }

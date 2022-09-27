@@ -4,18 +4,14 @@ import Spinner from 'react-bootstrap/Spinner';
 import Row from 'react-bootstrap/Row';
 import CardMarvel from "./CardMarvel";
 
-function MiApp({ searchInput = '' }) {
-    // 3. card guardará los valores traídos desde la API
-    //asigna estados para traer datos del array
+function MiApp({ searchInput }) {
     const [card, setCard] = useState([]);
     const [isLoading, setLoading] = useState(true)
-    // 2. LLamamos al función que consume la API al momento de montar el componento
     useEffect(() => {
         getCardsMarvel();
 
     }, [searchInput]);
-    // 1. Función que consulta la API, se utiliza funcion async para esperar que la respuesta de la funcion fetch
-    const getCardsMarvel = async () => {
+       const getCardsMarvel = async () => {
         setLoading(true)
         let url
         if (searchInput !== '') {
@@ -28,18 +24,17 @@ function MiApp({ searchInput = '' }) {
         setCard(data.data.results)
         setLoading(false)
     }
-    //Se crea la funcion LoadingCard que muestra un Spiner mientras carga el contenido de la pagina
     function LoadingCard() {
         return (
             <div className="spinnerContent">
                 <Spinner animation="border" variant="light" role="status">
                 </Spinner>
-                <h1>Cargando...</h1>
+                <h1>CARGANDO...</h1>
             </div>
         );
     }
 
-    //Se crea un ternario que pasa primero la condicion de que si esta cargando muestre el spinner de lo contrario cargue el contenedor con las cards
+    //Se crea un ternario que pasa primero la condicion de que si esta cargando muestre el spinner de lo contrario cargue el contenedor y recorro el arreglo con los datos y por cada uno de ellos llamo el componente cardmarvel
     return (
 
         <div className="contentCard">

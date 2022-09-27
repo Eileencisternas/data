@@ -13,9 +13,8 @@
 
 ***
 
-1. Preámbulo
-Los personajes de ficción que conforman el mundo Marvel son superhéroes con alguna peculiaridad. Spiderman por ejemplo, es un joven fotógrafo de prensa, Peter Parker, con un sentido arácnido y una gran agilidad y fortaleza física. Hulk es un humanoide que en su vida normal es un científico llamado Bruce Banner (en un experimento científico Bruce Banner recibió radiaciones y cuando se enfurece se transforma en Hulk, un ser de color verde y con una fuerza sobrehumana). Lobezno es un mutante con garras retráctiles y que en su vida corriente se llama Logan (Lobezno forma parte de un grupo de mutantes, los X-Men).
-Api marvel esta contruida para poder indagar en este mundo de personajes.
+* Los personajes de ficción que conforman el mundo Marvel son superhéroes con alguna peculiaridad. Spiderman por ejemplo, es un joven fotógrafo de prensa, Peter Parker, con un sentido arácnido y una gran agilidad y fortaleza física. Hulk es un humanoide que en su vida normal es un científico llamado Bruce Banner (en un experimento científico Bruce Banner recibió radiaciones y cuando se enfurece se transforma en Hulk, un ser de color verde y con una fuerza sobrehumana). Lobezno es un mutante con garras retráctiles y que en su vida corriente se llama Logan (Lobezno forma parte de un grupo de mutantes, los X-Men).
+* Api marvel esta contruida para poder indagar en este mundo de personajes.
 
 ![Marvel](/public/img/marvel0.webp)
 
@@ -28,9 +27,11 @@ Api marvel esta contruida para poder indagar en este mundo de personajes.
 
 ## 3. Definición del usuario.
 
-Los usuarios objetivo del producto son espectadores nuevos o antiguos, fans o aficionados del mundo Marvel y sus personajes, abarca todas las edades y gustos por sus super heroes favoritos.
+* Los usuarios objetivo del producto son espectadores nuevos o antiguos, fans o aficionados del mundo Marvel y sus personajes, abarca todas las edades y gustos por sus super heroes favoritos.
 
 ![Fotos](/public/img/marvel1.png)
 ![Marvel-Api](/public/img/marvel3.png)
 
 ## 4.Grabación 
+
+La Grabación se puede encontrar en https://www.youtube.com/watch?v=T3p14fjfh6U
